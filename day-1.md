@@ -15,3 +15,8 @@ Convert an image or video from dark mode to light mode using [ffmpeg](https://ww
 ```bash
 ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
 ```
+
+## Summary
+
+In this post I practiced the core Markdown elements — headings, task lists,
+code blocks, and images — the building blocks of any README or GitHub Pages site.
